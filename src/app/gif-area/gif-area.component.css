@@ -1,0 +1,6 @@
+.gifarea{
+    display:flex;flex-direction: column;align-items: flex-start;justify-content: space-between;position:a
+}
+.gif img{
+    max-width:200px;
+}

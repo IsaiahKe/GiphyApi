@@ -1,0 +1,5 @@
+<mat-grid-list cols="1"class="gifarea" >
+<div class="gif" *ngFor='let gif of gifs'>
+<img [src]='gif.images.downsized.url' alt=""height="200px" width="200px">
+</div>
+</mat-grid-list>
